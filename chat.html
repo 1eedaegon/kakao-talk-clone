@@ -46,8 +46,49 @@
     </header>
 
     <!-- main -->
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="https://avatars0.githubusercontent.com/u/37583495?s=400&u=cf61cee3359a5cd2af244f89dcccf189d77f7832&v=4"
+                alt="dev-gon">
+            <div class="message-row__content">
+                <span class="message__author">Dev-gon</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">02:45</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi! I'm deaegon</span>
+                    <span class="message__time">03:45</span>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <form action="get" class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <!-- Over size -->
+    <div id="no-mobile">
+        <span>Your screen is too big! ㅠㅠ </span>
+    </div>
 
     <!-- Font awesome repository -->
     <script src="https://kit.fontawesome.com/17964c6ee4.js" crossorigin="anonymous"></script>
