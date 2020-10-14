@@ -15,6 +15,11 @@
     margin-left: 25px;
 }
 
+.screen-header a {
+    position: relative;
+}
+
+
 @keyframes rotateCog {
     from {
         transform: none;

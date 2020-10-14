@@ -66,3 +66,8 @@
 .nav__btn:last-child {
     animation-delay: 0.8s;
 }
+
+.nav__link .dot {
+    top: -20px;
+    right: -10px;
+}
